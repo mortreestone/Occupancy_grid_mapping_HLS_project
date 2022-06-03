@@ -1,0 +1,42 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2020.2/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2020.2/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'szuwei' on host 'MANG-EE11720' (Linux_x86_64 version 5.13.0-39-generic) on Tue May 17 11:07:43 CST 2022
+INFO: [HLS 200-10] On os Ubuntu 20.04.3 LTS
+INFO: [HLS 200-10] In directory '/home/szuwei/Desktop/HLS/ogm_tools/script'
+Sourcing Tcl script '../HLS_src/datatype/float/runfloat.tcl'
+INFO: [HLS 200-1510] Running: open_project float.prj -reset 
+INFO: [HLS 200-10] Creating and opening project '/home/szuwei/Desktop/HLS/ogm_tools/script/float.prj'.
+INFO: [HLS 200-1510] Running: add_files ../HLS_src/datatype/float/header.h 
+INFO: [HLS 200-10] Adding design file '../HLS_src/datatype/float/header.h' to the project
+INFO: [HLS 200-1510] Running: add_files ../HLS_src/datatype/float/ogm.cpp 
+INFO: [HLS 200-10] Adding design file '../HLS_src/datatype/float/ogm.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb ../HLS_src/datatype/float/data.h 
+INFO: [HLS 200-10] Adding test bench file '../HLS_src/datatype/float/data.h' to the project
+INFO: [HLS 200-1510] Running: add_files -tb ../HLS_src/datatype/float/grid1.h 
+INFO: [HLS 200-10] Adding test bench file '../HLS_src/datatype/float/grid1.h' to the project
+INFO: [HLS 200-1510] Running: add_files -tb ../HLS_src/datatype/float/main.cpp 
+INFO: [HLS 200-10] Adding test bench file '../HLS_src/datatype/float/main.cpp' to the project
+INFO: [HLS 200-1510] Running: set_top ogm 
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Creating and opening solution '/home/szuwei/Desktop/HLS/ogm_tools/script/float.prj/solution1'.
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2020.2;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: set_directive_top -name ogm ogm 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite ogm xi 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite ogm yi 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite ogm thetai 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite ogm angle 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite ogm z_t 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode m_axi -offset slave ogm grid 
+INFO: [HLS 200-10] Deleting project 'float.prj'
+INFO: [Common 17-206] Exiting vitis_hls at Tue May 17 11:07:45 2022...
