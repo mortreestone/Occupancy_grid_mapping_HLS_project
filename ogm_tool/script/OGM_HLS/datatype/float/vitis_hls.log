@@ -1,0 +1,15 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2020.2/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2020.2/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'szuwei' on host 'MANG-EE11720' (Linux_x86_64 version 5.13.0-39-generic) on Thu May 05 23:34:19 MDT 2022
+INFO: [HLS 200-10] On os Ubuntu 20.04.3 LTS
+INFO: [HLS 200-10] In directory '/home/szuwei/Desktop/HLS/ogm_tools/HLS_src/datatype/float'
+Sourcing Tcl script '/home/szuwei/Desktop/HLS/ogm_tools/HLS_src/datatype/float/runfloat.tcl'
+INFO: [HLS 200-1510] Running: open_project float.prj -reset 
+INFO: [HLS 200-10] Creating and opening project '/home/szuwei/Desktop/HLS/ogm_tools/HLS_src/datatype/float/float.prj'.
+INFO: [Common 17-206] Exiting vitis_hls at Thu May  5 23:34:19 2022...
